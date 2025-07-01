@@ -1,0 +1,3 @@
+{ hostname, ... }: {
+  networknig.hostName = hostname;
+}
