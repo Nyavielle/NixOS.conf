@@ -1,0 +1,3 @@
+{ stateVersion, ... }: {
+  system.stateVersion = stateVersion;
+}
