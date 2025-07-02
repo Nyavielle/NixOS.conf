@@ -7,6 +7,7 @@
     hyprlock
     hyprpaper
     playerctl
+    starship
     waybar
     wl-clipboard
     wofi
