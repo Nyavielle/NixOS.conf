@@ -29,7 +29,7 @@
       "super, 7, workspace, 7"
       "super, 8, workspace, 8"
       "super, 9, workspace, 9"
-      "super, 10, workspace, 10"
+      "super, 0, workspace, 10"
 
       "super shift, 1, movetoworkspace, 1"
       "super shift, 2, movetoworkspace, 2"
@@ -40,7 +40,7 @@
       "super shift, 7, movetoworkspace, 7"
       "super shift, 8, movetoworkspace, 8"
       "super shift, 9, movetoworkspace, 9"
-      "super shift, 10, movetoworkspace, 10"
+      "super shift, 0, movetoworkspace, 10"
     ];
 
     bindm = [

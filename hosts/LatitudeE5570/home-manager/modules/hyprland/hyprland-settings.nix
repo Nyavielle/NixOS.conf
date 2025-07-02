@@ -1,6 +1,6 @@
 {
   wayland.windowManager.hyprland = {
-    enabled = true;
+    enable = true;
     settings = {
       monitor = ",1920x1080@60,auto,1";
       general = {
@@ -8,8 +8,8 @@
         no_border_on_floating = true;
         gaps_in = 5;
         gaps_out = 10;
-        col.inactive_border = "$surface0";
-        col.active_border = "$lavender";
+        "col.inactive_border" = "$surface0";
+        "col.active_border" = "$lavender";
         layout = "dwindle";
         no_focus_fallback = true;
         resize_on_border = false;

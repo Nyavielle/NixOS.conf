@@ -2,7 +2,9 @@
   boot.loader.grub = {
     enable = true;
     efiSupport = true;
-    device = "/dev/nvme0n1";
+    device = "nodev";
     theme = pkgs.catppuccin-grub;
   };
+
+  boot.loader.efi.canTouchEfiVariables = true;
 }
