@@ -1,7 +1,8 @@
 {
   imports = [
-    ./hyprland
     ./alacritty.nix
+    ./firefox.nix
     ./git.nix
+    ./hyprland
   ];
 }
