@@ -9,7 +9,7 @@
         level = "AlwaysOnTop";
       };
       scrolling = {
-        history = 0;
+        history = 10000;
       };
       font = {
         normal = {

@@ -16,6 +16,7 @@
     cargo
     clang
     curl
+    fastfetch
     git
     htop
     neovim

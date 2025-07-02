@@ -4,7 +4,7 @@
     enableZshIntegration = true;
     settings = {
       add_newline = true;
-      format = "${user}@${hostname}:$directory$git_branch\n$character";
+      format = "${user}@${hostname}: $directory$git_branch\n$character";
       
       directory = {
         truncation_length = 0;
