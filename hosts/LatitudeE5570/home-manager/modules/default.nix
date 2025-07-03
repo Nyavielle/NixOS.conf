@@ -6,6 +6,7 @@
     ./git.nix
     ./hyprland
     ./starship.nix
+    ./waybar
     ./wofi
   ];
 }
