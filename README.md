@@ -1,7 +1,9 @@
 # NixOS.conf
 My configuration for NixOS
 
-![screenshot](./screenshots/screenshot_2025.07.03_15:43:56.png) ![screenshot](./screenshots/screenshot_2025.07.03_15:44:09.png) ![screenshot](./screenshots/screenshot_2025.07.03_15:44:30.png)
+![screenshot](./screenshots/screenshot_2025.07.03_15:43:56.png)
+![screenshot](./screenshots/screenshot_2025.07.03_15:44:09.png)
+![screenshot](./screenshots/screenshot_2025.07.03_15:44:30.png)
 
 ## Installation:
 
