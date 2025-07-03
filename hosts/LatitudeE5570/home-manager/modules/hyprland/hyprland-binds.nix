@@ -4,6 +4,9 @@
       "super, return, exec, alacritty"
       "super, space, exec, wofi --show drun"
 
+      ", print, exec, sh -c 'grim ~/Pictures/screenshots/screenshot_$(date +%Y.%m.%d_%H:%M:%S).png'"
+      "super, print, exec, sh -c 'grim -g \"$(slurp)\" ~/Pictures/screenshots/screenshot_$(date +%Y.%m.%d_%H:%M:%S).png'"
+  
       "super, q, killactive,"
       "super shift, q, exit,"
       "super, f, togglefloating,"
