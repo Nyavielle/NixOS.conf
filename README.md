@@ -52,7 +52,7 @@ My configuration for NixOS
     ++  user = "<your_username>";
     
         hosts = [
-    --    { hostname = "LatitudeE5570"; system = "x86_64-linux"; stateVersion = "25.05"; }
+    --    { hostname = "NyaOS"; system = "x86_64-linux"; stateVersion = "25.05"; }
     ++    { hostname = "<your_hostname>"; system = "<your_architecture>"; stateVersion = "<your_stateVersion>"; }
         ];
     ...

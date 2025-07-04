@@ -23,7 +23,7 @@
 
     hosts = [
       {
-        hostname = "LatitudeE5570";
+        hostname = "NyaOS";
         system = "x86_64-linux";
         stateVersion = "25.05";
       }

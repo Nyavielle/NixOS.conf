@@ -4,6 +4,8 @@
       "super, return, exec, alacritty"
       "super, space, exec, wofi --show drun"
 
+      "super, z, exec, hyprpicker -af hex"
+
       ", print, exec, sh -c 'grim ~/Pictures/screenshots/screenshot_$(date +%Y.%m.%d_%H:%M:%S).png'"
       "super, print, exec, sh -c 'grim -g \"$(slurp)\" ~/Pictures/screenshots/screenshot_$(date +%Y.%m.%d_%H:%M:%S).png'"
   

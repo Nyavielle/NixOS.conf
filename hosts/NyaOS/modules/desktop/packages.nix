@@ -7,6 +7,7 @@
     hyprland
     hyprlock
     hyprpaper
+    hyprpicker
     playerctl
     slurp
     starship

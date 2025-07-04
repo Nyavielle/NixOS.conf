@@ -13,7 +13,7 @@
         layout = "dwindle";
         no_focus_fallback = true;
         resize_on_border = false;
-        allow_tearing = false;
+        allow_tearing = true;
         
         snap = {
           enabled = true;
