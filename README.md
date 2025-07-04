@@ -33,7 +33,8 @@ My configuration for NixOS
 5. **Put your `hardware-configuration.nix` file there**:
     
     ```bash
-    cp /etc/nixos/hardware-configuration.nix ./
+    nixos-generate-config --root /mnt
+    cp /mnt/etc/nixos/hardware-configuration.nix ./
     ```
 
 6. **Edit `home-manager/home-packages.nix` and `modules/` files if needed**:
@@ -61,7 +62,7 @@ My configuration for NixOS
 8. **Rebuilding**:
 
     ```bash
-    cd nixos-config-reborn
+    cd NixOS.conf
     git add .
     nixos-install --flake ./#<hostname>
     # or nixos-rebuild switch --flake ./#<hostname> if you use NixOS already
